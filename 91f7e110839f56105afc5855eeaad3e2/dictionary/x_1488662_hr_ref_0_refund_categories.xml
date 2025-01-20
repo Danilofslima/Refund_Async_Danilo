@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d488ad10839f56105afc5855eeaad3db" label="Refund Categories" max_length="40" name="x_1488662_hr_ref_0_refund_categories" type="collection">
+        <element label="Threshold" max_length="40" name="threshold" type="integer"/>
+        <element label="Assigned group" max_length="32" name="assigned_group" reference="sys_user_group" type="reference"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Category" max_length="100" name="category" type="string"/>
+        <index name="index">
+            <element name="assigned_group"/>
+        </index>
+    </element>
+</database>
