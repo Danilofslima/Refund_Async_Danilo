@@ -3,7 +3,8 @@
         <element label="Amount in BRL" max_length="20" name="amount_in_brl" type="currency"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
         <element label="Category" max_length="32" name="category" reference="x_1488662_hr_ref_0_refund_categories" type="reference"/>
-        <element dependent="opened_by" dependent_on_field="opened_by" label="Manager" max_length="100" name="manager" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Date of  Expense" max_length="40" name="date_of_expense" type="glide_date"/>
+        <element dependent="opened_by" dependent_on_field="opened_by" label="Manager" max_length="100" name="manager" type="string" use_dependent_field="true"/>
         <element label="Amount in USD" max_length="20" name="amount_in_usd" type="currency"/>
     </element>
 </database>

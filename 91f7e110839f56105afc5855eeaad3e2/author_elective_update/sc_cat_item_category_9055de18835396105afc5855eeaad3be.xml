@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Request Refund Expenses">c8205290835396105afc5855eeaad3cd</sc_cat_item>
+        <sc_category display_value="HR Resquest Refund">c8359ed4835396105afc5855eeaad3ff</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:33:45</sys_created_on>
+        <sys_id>9055de18835396105afc5855eeaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Resquest Refund.Request Refund Expenses</sys_name>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name>sc_cat_item_category_9055de18835396105afc5855eeaad3be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:33:45</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</application>
+        <file_path/>
+        <instance_id>bce32464db12b5584162684e1396197c</instance_id>
+        <instance_name>dev199631</instance_name>
+        <name>sc_cat_item_category_9055de18835396105afc5855eeaad3be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Refund Expenses">c8205290835396105afc5855eeaad3cd</sc_cat_item><sc_category display_value="HR Resquest Refund">c8359ed4835396105afc5855eeaad3ff</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-20 19:33:45</sys_created_on><sys_id>9055de18835396105afc5855eeaad3be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Resquest Refund.Request Refund Expenses</sys_name><sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package><sys_policy/><sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope><sys_update_name>sc_cat_item_category_9055de18835396105afc5855eeaad3be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-20 19:33:45</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-147565512</payload_hash>
+        <record_name>HR Resquest Refund.Request Refund Expenses</record_name>
+        <reverted_from/>
+        <source>bd9f4a18831396105afc5855eeaad3bf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:33:46</sys_created_on>
+        <sys_id>1855de18835396105afc5855eeaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948534ede30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:33:46</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>1c55de186e539610439de6e93d2edcc1</update_guid>
+        <update_guid_history>1c55de186e539610439de6e93d2edcc1:-147565512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR Resquest Refund.Request Refund Expenses">27761e98835396105afc5855eeaad391</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:38:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>b05b93756f3e40d3ab24eead91d8f799</sys_id>
+        <sys_metadata>9055de18835396105afc5855eeaad3be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Resquest Refund.Request Refund Expenses</sys_name>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_scope_delete display_value="">1fe6e27ebeb54b3cb16e6f90973e5410</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_9055de18835396105afc5855eeaad3be</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_9055de18835396105afc5855eeaad3be">1855de18835396105afc5855eeaad3c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:38:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c9cbb698831796105afc5855eeaad37f" sys_domain="global" table="x_1488662_hr_ref_0_refund_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:21:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41cbb698831796105afc5855eeaad384</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1488662_hr_ref_0_refund_request" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">c9cbb698831796105afc5855eeaad37f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">89cbb698831796105afc5855eeaad37e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:22:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1488662_hr_ref_0_refund_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:21:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9cbb698831796105afc5855eeaad37f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1488662_hr_ref_0_refund_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c9cbb698831796105afc5855eeaad37f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:21:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
