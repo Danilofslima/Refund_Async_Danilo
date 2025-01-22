@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>currency_integration_api_v4</internal_name>
-        <label_cache>[{"name":"{{action.amount_in_brl}}","label":"action➛Amount in BRL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].apikey}}","label":"step➛Script step➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].base_currency}}","label":"step➛Script step➛Base Currency","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ade6d339-21d2-446e-a9ba-3f80fa752ebf"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].currencies}}","label":"step➛Script step➛Currencies","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"231be5d6-c0ef-494f-9153-5a60cf6ec7fd"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].endpoint}}","label":"step➛Script step➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5dbb393d-eea9-4c9d-ac74-d90b8dd9069a"}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD47fde9ace953d61025bb44e1756185a7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"535efb78-57b5-4fbd-8164-039de7d12c49"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].brlrate}}","label":"step➛Script step➛brlrate","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"92532536-7dae-4e4a-b562-7c5e6a4e3d80"}}]</label_cache>
+        <label_cache>[{"name":"{{action.amount_in_brl}}","label":"action➛Amount in BRL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].apikey}}","label":"step➛Script step➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].base_currency}}","label":"step➛Script step➛Base Currency","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ade6d339-21d2-446e-a9ba-3f80fa752ebf"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].currencies}}","label":"step➛Script step➛Currencies","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"231be5d6-c0ef-494f-9153-5a60cf6ec7fd"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].endpoint}}","label":"step➛Script step➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5dbb393d-eea9-4c9d-ac74-d90b8dd9069a"}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD47fde9ace953d61025bb44e1756185a7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"535efb78-57b5-4fbd-8164-039de7d12c49"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].brlrate}}","label":"step➛Script step➛brlrate","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"92532536-7dae-4e4a-b562-7c5e6a4e3d80"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].usdvalue}}","label":"step➛Script step➛usdvalue","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"76026efd-88a2-4ffc-894d-165b446e42f3"}}]</label_cache>
         <master_snapshot>9f7d243c83131a105afc5855eeaad33b</master_snapshot>
         <master_snapshot_digest/>
         <name>Currency Integration API v4</name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4f9be07883131a105afc5855eeaad34d</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Currency Integration API v4</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_4f9be07883131a105afc5855eeaad34d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:07</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -53,10 +53,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:08:55</sys_created_on>
         <sys_id>6f9be07883131a105afc5855eeaad3f0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:16:38</sys_updated_on>
-        <value>{"complexObjectSchema":{"FlowDesigner:FD179be07881131a10d46f54d86accf6cd":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD179be07881131a10d46f54d86accf6cd.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a82c6030-6536-4f68-acbc-ab6046dfd9ec\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD179be07881131a10d46f54d86accf6cd\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2025-01-22 10:59:01</sys_updated_on>
+        <value>{"complexObjectSchema":{"FlowDesigner:FD179be07881131a10d46f54d86accf6cd":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD179be07881131a10d46f54d86accf6cd.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a82c6030-6536-4f68-acbc-ab6046dfd9ec\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD179be07881131a10d46f54d86accf6cd\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">df9be07883131a105afc5855eeaad3ce</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -87,6 +87,20 @@
         <value>0</value>
         <variable display_value="Don't Treat as Error">a39be07883131a105afc5855eeaad3e5</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>4f9be07883131a105afc5855eeaad34d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 10:59:01</sys_created_on>
+        <sys_id>aba2bab8839b1a105afc5855eeaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 10:59:01</sys_updated_on>
+        <value/>
+        <variable display_value="usdvalue">2ba2bab8839b1a105afc5855eeaad3b5</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=4f9be07883131a105afc5855eeaad34d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>brlrate</field>
@@ -111,6 +125,18 @@
         <sys_updated_on>2025-01-22 01:08:55</sys_updated_on>
         <table>var__m_sys_hub_action_output_4f9be07883131a105afc5855eeaad34d</table>
         <value>{{step[56df5097-ff40-4e6c-b667-f987cf07e902].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>usdvalue</field>
+        <id>4f9be07883131a105afc5855eeaad34d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 10:59:01</sys_created_on>
+        <sys_id>a7a2bab8839b1a105afc5855eeaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 10:59:01</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4f9be07883131a105afc5855eeaad34d</table>
+        <value>{{step[347a3408-e4d3-44ec-9200-4570826f89ac].usdvalue}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
@@ -246,7 +272,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>579be07883131a105afc5855eeaad3c1</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -254,7 +280,7 @@
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:04</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:10</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -382,10 +408,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:08:54</sys_created_on>
         <sys_id>539be07883131a105afc5855eeaad3a3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:08:54</sys_updated_on>
+        <sys_updated_on>2025-01-22 10:44:32</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=539be07883131a105afc5855eeaad3a3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1120,10 +1146,10 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:10:53</sys_created_on>
         <sys_id>9c1c6c7883131a105afc5855eeaad3b0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:13:53</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:51:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9c1c6c7883131a105afc5855eeaad3b0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1148,9 +1174,9 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:10:53</sys_created_on>
         <sys_id>e41c6c7883131a105afc5855eeaad3be</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:13:53</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:51:20</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
     // Extract the BRL value as a string from the input object&#13;
     var brlString = inputs.object.data.BRL;&#13;
@@ -1160,12 +1186,26 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
 &#13;
     // Round to two decimal places and set the output&#13;
     outputs.brlrate = brlFloat.toFixed(2); &#13;
-    // outputs.usdvalue = parseFloat(fd_data.input_variables.amount_in_brl)/ brlFloat.toFixed(2); &#13;
+    // outputs.usdvalue = parseFloat(inputs.input_variable_amount_in_brl.toString())/ brlFloat.toFixed(2); &#13;
+    var usdvalue = parseFloat(inputs.amountBrl.toString())/ brlFloat.toFixed(2); &#13;
+    outputs.usdvalue = usdvalue.toFixed(2);&#13;
 &#13;
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9c1c6c7883131a105afc5855eeaad3b0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>amountBrl</field>
+        <id>9c1c6c7883131a105afc5855eeaad3b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 11:49:29</sys_created_on>
+        <sys_id>c73e327883db1a105afc5855eeaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 11:49:29</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9c1c6c7883131a105afc5855eeaad3b0</table>
+        <value>{{action.amount_in_brl}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
         <id>9c1c6c7883131a105afc5855eeaad3b0</id>
@@ -1205,7 +1245,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_9c1c6c7883131a105afc5855eeaad3b0^id=9c1c6c7883131a105afc5855eeaad3b0"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=9c1c6c7883131a105afc5855eeaad3b0"/>
     <sys_translated_text action="delete_multiple" query="documentkey=9c1c6c7883131a105afc5855eeaad3b0"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=9c1c6c7883131a105afc5855eeaad3b0^sys_idNOT IN2c1c6c7883131a105afc5855eeaad3b4"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9c1c6c7883131a105afc5855eeaad3b0^sys_idNOT IN2c1c6c7883131a105afc5855eeaad3b4,7a3e327883db1a105afc5855eeaad339"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1289,7 +1329,173 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=9c1c6c7883131a105afc5855eeaad3b0^sys_idNOT INf90de4f883131a105afc5855eeaad34e"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>amountBrl</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">9c1c6c7883131a105afc5855eeaad3b0</model>
+        <model_id>9c1c6c7883131a105afc5855eeaad3b0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9c1c6c7883131a105afc5855eeaad3b0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 11:49:29</sys_created_on>
+        <sys_id>7a3e327883db1a105afc5855eeaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 11:49:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=9c1c6c7883131a105afc5855eeaad3b0^sys_idNOT IN6932fe78839b1a105afc5855eeaad3e2,f90de4f883131a105afc5855eeaad34e"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number,uiUniqueId=76026efd-88a2-4ffc-894d-165b446e42f3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>usdvalue</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label>usdvalue</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">9c1c6c7883131a105afc5855eeaad3b0</model>
+        <model_id>9c1c6c7883131a105afc5855eeaad3b0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9c1c6c7883131a105afc5855eeaad3b0</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 10:56:58</sys_created_on>
+        <sys_id>6932fe78839b1a105afc5855eeaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 10:56:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1374,7 +1580,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9c1c6c7883131a105afc5855eeaad3b0"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9c1c6c7883131a105afc5855eeaad3b0^sys_idNOT IN3d0de4f883131a105afc5855eeaad351"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9c1c6c7883131a105afc5855eeaad3b0^sys_idNOT IN3d0de4f883131a105afc5855eeaad351,6132fe78839b1a105afc5855eeaad3e5"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>brlrate</element>
         <help/>
@@ -1395,6 +1601,29 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-22 01:15:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>usdvalue</element>
+        <help/>
+        <hint/>
+        <label>usdvalue</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_9c1c6c7883131a105afc5855eeaad3b0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 10:56:58</sys_created_on>
+        <sys_id>6132fe78839b1a105afc5855eeaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 10:56:58</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1483,7 +1712,94 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=479be07883131a105afc5855eeaad353"/>
-    <sys_hub_action_output action="delete_multiple" query="model=4f9be07883131a105afc5855eeaad34d^sys_idNOT IN5c6decf883131a105afc5855eeaad3b8,a39be07883131a105afc5855eeaad3e5,df9be07883131a105afc5855eeaad3ce"/>
+    <sys_hub_action_output action="delete_multiple" query="model=4f9be07883131a105afc5855eeaad34d^sys_idNOT IN2ba2bab8839b1a105afc5855eeaad3b5,5c6decf883131a105afc5855eeaad3b8,a39be07883131a105afc5855eeaad3e5,df9be07883131a105afc5855eeaad3ce"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number,uiUniqueId=daf70cf1-3ac0-4b40-b555-0dac6beffed1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>usdvalue</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">float</internal_type>
+        <label>usdvalue</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Currency Integration API v4">4f9be07883131a105afc5855eeaad34d</model>
+        <model_id>4f9be07883131a105afc5855eeaad34d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_4f9be07883131a105afc5855eeaad34d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 10:59:00</sys_created_on>
+        <sys_id>2ba2bab8839b1a105afc5855eeaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 10:59:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2ba2bab8839b1a105afc5855eeaad3b5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2ba2bab8839b1a105afc5855eeaad3b5"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1618,7 +1934,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_4f9be07883131a105afc5855eeaad34d</name>
         <next_element/>
-        <order>3</order>
+        <order>4</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1636,14 +1952,14 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:08:54</sys_created_on>
         <sys_id>a39be07883131a105afc5855eeaad3e5</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:04</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1663,14 +1979,14 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <name>FD179be07881131a10d46f54d86accf6cd</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>91f7e110839f56105afc5855eeaad3e2</scope_name>
-        <serialized_content>{"FlowDesigner:FD179be07881131a10d46f54d86accf6cd":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD179be07881131a10d46f54d86accf6cd.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a82c6030-6536-4f68-acbc-ab6046dfd9ec\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD179be07881131a10d46f54d86accf6cd\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FD179be07881131a10d46f54d86accf6cd":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD179be07881131a10d46f54d86accf6cd.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a82c6030-6536-4f68-acbc-ab6046dfd9ec\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD179be07881131a10d46f54d86accf6cd\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:08:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d79be07883131a105afc5855eeaad3cd</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1678,7 +1994,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:04</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:11</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -1728,7 +2044,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_4f9be07883131a105afc5855eeaad34d</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1746,14 +2062,14 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:08:54</sys_created_on>
         <sys_id>df9be07883131a105afc5855eeaad3ce</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:16:37</sys_updated_on>
+        <sys_updated_on>2025-01-22 10:59:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1819,7 +2135,30 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_4f9be07883131a105afc5855eeaad34d"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_4f9be07883131a105afc5855eeaad34d^sys_idNOT IN986decf883131a105afc5855eeaad3bc,af9be07883131a105afc5855eeaad3ea,d39be07883131a105afc5855eeaad3d3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_4f9be07883131a105afc5855eeaad34d^sys_idNOT IN63a2bab8839b1a105afc5855eeaad3c5,986decf883131a105afc5855eeaad3bc,af9be07883131a105afc5855eeaad3ea,d39be07883131a105afc5855eeaad3d3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>usdvalue</element>
+        <help/>
+        <hint/>
+        <label>usdvalue</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_4f9be07883131a105afc5855eeaad34d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 10:59:01</sys_created_on>
+        <sys_id>63a2bab8839b1a105afc5855eeaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 10:59:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>brlrate</element>
         <help/>
@@ -1894,17 +2233,17 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Currency Integration API v4">4f9be07883131a105afc5855eeaad34d</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"337d643c83131a105afc5855eeaad348","name":"plan","plan_signature":null}}</plan>
-        <snapshot>6f7d243c83131a105afc5855eeaad3dc</snapshot>
+        <snapshot>2c5fbab883db1a105afc5855eeaad324</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>337d643c83131a105afc5855eeaad348</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:08</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:16</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1921,7 +2260,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <description>Returns the latest exchange rates. The default base currency is USD.</description>
         <flow_priority/>
         <internal_name>currency_integration_api_v4</internal_name>
-        <label_cache>[{"name":"{{action.amount_in_brl}}","label":"action➛Amount in BRL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].apikey}}","label":"step➛Script step➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].base_currency}}","label":"step➛Script step➛Base Currency","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ade6d339-21d2-446e-a9ba-3f80fa752ebf"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].currencies}}","label":"step➛Script step➛Currencies","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"231be5d6-c0ef-494f-9153-5a60cf6ec7fd"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].endpoint}}","label":"step➛Script step➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5dbb393d-eea9-4c9d-ac74-d90b8dd9069a"}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD47fde9ace953d61025bb44e1756185a7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"535efb78-57b5-4fbd-8164-039de7d12c49"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].brlrate}}","label":"step➛Script step➛brlrate","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"92532536-7dae-4e4a-b562-7c5e6a4e3d80"}}]</label_cache>
+        <label_cache>[{"name":"{{action.amount_in_brl}}","label":"action➛Amount in BRL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].apikey}}","label":"step➛Script step➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].base_currency}}","label":"step➛Script step➛Base Currency","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ade6d339-21d2-446e-a9ba-3f80fa752ebf"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].currencies}}","label":"step➛Script step➛Currencies","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"231be5d6-c0ef-494f-9153-5a60cf6ec7fd"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].endpoint}}","label":"step➛Script step➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5dbb393d-eea9-4c9d-ac74-d90b8dd9069a"}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD47fde9ace953d61025bb44e1756185a7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"535efb78-57b5-4fbd-8164-039de7d12c49"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].brlrate}}","label":"step➛Script step➛brlrate","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"92532536-7dae-4e4a-b562-7c5e6a4e3d80"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].usdvalue}}","label":"step➛Script step➛usdvalue","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"76026efd-88a2-4ffc-894d-165b446e42f3"}}]</label_cache>
         <master>true</master>
         <name>Currency Integration API v4</name>
         <natlang/>
@@ -1934,7 +2273,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9f7d243c83131a105afc5855eeaad33b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1942,7 +2281,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:05</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:13</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1961,6 +2300,20 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_updated_on>2025-01-22 01:17:07</sys_updated_on>
         <value/>
         <variable display_value="brlrate">af7d243c83131a105afc5855eeaad3ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>9f7d243c83131a105afc5855eeaad33b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 11:54:14</sys_created_on>
+        <sys_id>645fbab883db1a105afc5855eeaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
+        <value/>
+        <variable display_value="usdvalue">285fbab883db1a105afc5855eeaad312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -2002,6 +2355,18 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_updated_on>2025-01-22 01:17:07</sys_updated_on>
         <table>var__m_sys_hub_action_output_9f7d243c83131a105afc5855eeaad33b</table>
         <value>{{step[347a3408-e4d3-44ec-9200-4570826f89ac].brlrate}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>usdvalue</field>
+        <id>9f7d243c83131a105afc5855eeaad33b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 11:54:14</sys_created_on>
+        <sys_id>e05fbab883db1a105afc5855eeaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9f7d243c83131a105afc5855eeaad33b</table>
+        <value>{{step[347a3408-e4d3-44ec-9200-4570826f89ac].usdvalue}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
@@ -2783,10 +3148,10 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:06</sys_created_on>
         <sys_id>a37d243c83131a105afc5855eeaad399</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:06</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a37d243c83131a105afc5855eeaad399"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2811,9 +3176,9 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:06</sys_created_on>
         <sys_id>e77d243c83131a105afc5855eeaad3ab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:06</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
     // Extract the BRL value as a string from the input object&#13;
     var brlString = inputs.object.data.BRL;&#13;
@@ -2823,12 +3188,26 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
 &#13;
     // Round to two decimal places and set the output&#13;
     outputs.brlrate = brlFloat.toFixed(2); &#13;
-    // outputs.usdvalue = parseFloat(fd_data.input_variables.amount_in_brl)/ brlFloat.toFixed(2); &#13;
+    // outputs.usdvalue = parseFloat(inputs.input_variable_amount_in_brl.toString())/ brlFloat.toFixed(2); &#13;
+    var usdvalue = parseFloat(inputs.amountBrl.toString())/ brlFloat.toFixed(2); &#13;
+    outputs.usdvalue = usdvalue.toFixed(2);&#13;
 &#13;
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a37d243c83131a105afc5855eeaad399"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>amountBrl</field>
+        <id>a37d243c83131a105afc5855eeaad399</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 11:54:14</sys_created_on>
+        <sys_id>905fbab883db1a105afc5855eeaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a37d243c83131a105afc5855eeaad399</table>
+        <value>{{action.amount_in_brl}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
         <id>a37d243c83131a105afc5855eeaad399</id>
@@ -2868,7 +3247,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a37d243c83131a105afc5855eeaad399^id=a37d243c83131a105afc5855eeaad399"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=a37d243c83131a105afc5855eeaad399"/>
     <sys_translated_text action="delete_multiple" query="documentkey=a37d243c83131a105afc5855eeaad399"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=a37d243c83131a105afc5855eeaad399^sys_idNOT IN237d243c83131a105afc5855eeaad39d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a37d243c83131a105afc5855eeaad399^sys_idNOT IN237d243c83131a105afc5855eeaad39d,dc5f7ab883db1a105afc5855eeaad3d9"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2952,7 +3331,173 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=a37d243c83131a105afc5855eeaad399^sys_idNOT IN2b7d243c83131a105afc5855eeaad3a1"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>amountBrl</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>amountBrl</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">a37d243c83131a105afc5855eeaad399</model>
+        <model_id>a37d243c83131a105afc5855eeaad399</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a37d243c83131a105afc5855eeaad399</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 11:54:14</sys_created_on>
+        <sys_id>dc5f7ab883db1a105afc5855eeaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a37d243c83131a105afc5855eeaad399^sys_idNOT IN105f7ab883db1a105afc5855eeaad3df,2b7d243c83131a105afc5855eeaad3a1"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number,uiUniqueId=76026efd-88a2-4ffc-894d-165b446e42f3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>usdvalue</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label>usdvalue</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a37d243c83131a105afc5855eeaad399</model>
+        <model_id>a37d243c83131a105afc5855eeaad399</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a37d243c83131a105afc5855eeaad399</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 11:54:14</sys_created_on>
+        <sys_id>105f7ab883db1a105afc5855eeaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3037,7 +3582,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a37d243c83131a105afc5855eeaad399"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a37d243c83131a105afc5855eeaad399^sys_idNOT IN2b7d243c83131a105afc5855eeaad3a4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a37d243c83131a105afc5855eeaad399^sys_idNOT IN2b7d243c83131a105afc5855eeaad3a4,545f7ab883db1a105afc5855eeaad3fa"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>brlrate</element>
         <help/>
@@ -3058,6 +3603,29 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-22 01:17:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>usdvalue</element>
+        <help/>
+        <hint/>
+        <label>usdvalue</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a37d243c83131a105afc5855eeaad399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 11:54:14</sys_created_on>
+        <sys_id>545f7ab883db1a105afc5855eeaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -3170,7 +3738,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af7d243c83131a105afc5855eeaad38d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3178,7 +3746,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:06</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:13</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -3374,7 +3942,94 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b7d243c83131a105afc5855eeaad33e"/>
-    <sys_hub_action_output action="delete_multiple" query="model=9f7d243c83131a105afc5855eeaad33b^sys_idNOT IN2b7d243c83131a105afc5855eeaad3bf,2f7d243c83131a105afc5855eeaad3c3,af7d243c83131a105afc5855eeaad3ba"/>
+    <sys_hub_action_output action="delete_multiple" query="model=9f7d243c83131a105afc5855eeaad33b^sys_idNOT IN285fbab883db1a105afc5855eeaad312,2b7d243c83131a105afc5855eeaad3bf,2f7d243c83131a105afc5855eeaad3c3,af7d243c83131a105afc5855eeaad3ba"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number,uiUniqueId=daf70cf1-3ac0-4b40-b555-0dac6beffed1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>usdvalue</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">float</internal_type>
+        <label>usdvalue</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Currency Integration API v4">9f7d243c83131a105afc5855eeaad33b</model>
+        <model_id>9f7d243c83131a105afc5855eeaad33b</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_9f7d243c83131a105afc5855eeaad33b</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 11:54:14</sys_created_on>
+        <sys_id>285fbab883db1a105afc5855eeaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=285fbab883db1a105afc5855eeaad312"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=285fbab883db1a105afc5855eeaad312"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3422,7 +4077,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_9f7d243c83131a105afc5855eeaad33b</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -3440,14 +4095,14 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:06</sys_created_on>
         <sys_id>2b7d243c83131a105afc5855eeaad3bf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:06</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3509,7 +4164,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_9f7d243c83131a105afc5855eeaad33b</name>
         <next_element/>
-        <order>3</order>
+        <order>4</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -3527,14 +4182,14 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:07</sys_created_on>
         <sys_id>2f7d243c83131a105afc5855eeaad3c3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:07</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3647,7 +4302,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-22 01:17:07</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2b7d243c83131a105afc5855eeaad3dc^sys_idNOT INeb7d243c83131a105afc5855eeaad3dc"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2b7d243c83131a105afc5855eeaad3dc^sys_idNOT INa05fbab883db1a105afc5855eeaad324"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 21/01/2025 22:17:07">2b7d243c83131a105afc5855eeaad3dc</action_status_metadata_id>
         <condition>{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}=1</condition>
@@ -3656,11 +4311,11 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <order>1</order>
         <status>{"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration error: check the endpoint"}}},"serializationFormat":"JSON"}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-22 01:17:07</sys_created_on>
-        <sys_id>eb7d243c83131a105afc5855eeaad3dc</sys_id>
+        <sys_created_on>2025-01-22 11:54:14</sys_created_on>
+        <sys_id>a05fbab883db1a105afc5855eeaad324</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 01:17:07</sys_updated_on>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9f7d243c83131a105afc5855eeaad33b^sys_idNOT IN977d243c83131a105afc5855eeaad342"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -3687,7 +4342,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9f7d243c83131a105afc5855eeaad33b"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9f7d243c83131a105afc5855eeaad33b^sys_idNOT IN2b7d243c83131a105afc5855eeaad3be,2f7d243c83131a105afc5855eeaad3c2,677d243c83131a105afc5855eeaad3d5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9f7d243c83131a105afc5855eeaad33b^sys_idNOT IN2b7d243c83131a105afc5855eeaad3be,2f7d243c83131a105afc5855eeaad3c2,677d243c83131a105afc5855eeaad3d5,685fbab883db1a105afc5855eeaad315"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>brlrate</element>
         <help/>
@@ -3754,6 +4409,29 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-22 01:17:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>usdvalue</element>
+        <help/>
+        <hint/>
+        <label>usdvalue</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9f7d243c83131a105afc5855eeaad33b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 11:54:14</sys_created_on>
+        <sys_id>685fbab883db1a105afc5855eeaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 11:54:14</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
