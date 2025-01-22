@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Request Refund Expenses">c8205290835396105afc5855eeaad3cd</cat_item>
+        <cat_variable>IO:d944da14835396105afc5855eeaad3a4</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Prevent Futute Date Request</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+    // var enteredDate = new Date(g_form.getValue("question_date_of_expense"));
+    var date1 = newValue;
+
+// Step 1: Parse the first date into a JavaScript Date object
+var parts = date1.split("/"); // Split into day, month, year
+var parsedDate1 = new Date(parts[2], parts[1] - 1, parts[0]); // Create Date object (months are zero-based)
+
+// alert (parsedDate1);
+    var today = new Date();
+// alert(today);
+    // Remove the time part from today's date for accurate comparison
+    today.setHours(0, 0, 0, 0);
+	parsedDate1.setHours(0, 0, 0, 0);
+
+    if (parsedDate1 > today) {
+        // Show an error message and clear the invalid value
+        // g_form.addErrorMessage("You cannot select a future date for refund.");
+		alert('You cannot select a future date for refund.')
+        g_form.clearValue('question_date_of_expense');
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 14:34:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8b916248357d6105afc5855eeaad301</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Prevent Futute Date Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name>catalog_script_client_c8b916248357d6105afc5855eeaad301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 16:56:19</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c8b916248357d6105afc5855eeaad301</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 14:34:29</sys_created_on>
+        <sys_id>866a52e08357d6105afc5855eeaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 14:34:29</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
