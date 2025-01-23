@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="4e8b7298831796105afc5855eeaad355" sys_domain="global" table="x_1488662_hr_ref_0_refund_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>468b7298831796105afc5855eeaad35f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">5ec9fed4831796105afc5855eeaad374</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>868b7298831796105afc5855eeaad360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>0e8b7298831796105afc5855eeaad360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>828b7298831796105afc5855eeaad361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>0a8b7298831796105afc5855eeaad361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>8e8b7298831796105afc5855eeaad361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>068b7298831796105afc5855eeaad362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>8a8b7298831796105afc5855eeaad362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>028b7298831796105afc5855eeaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>868b7298831796105afc5855eeaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>0e8b7298831796105afc5855eeaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_expense</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>828b7298831796105afc5855eeaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_in_brl</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>0a8b7298831796105afc5855eeaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_in_usd</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>8e8b7298831796105afc5855eeaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>068b7298831796105afc5855eeaad365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>8a8b7298831796105afc5855eeaad365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reproval_reason</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>028b7298831796105afc5855eeaad366</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>868b7298831796105afc5855eeaad366</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1488662_hr_ref_0_refund_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e8b7298831796105afc5855eeaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1488662_hr_ref_0_refund_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+            <sys_update_name>sys_ui_section_4e8b7298831796105afc5855eeaad355</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</application>
+        <file_path/>
+        <instance_id>81037f27dbb9f99038f117291396194d</instance_id>
+        <instance_name>dev188274</instance_name>
+        <name>sys_ui_section_4e8b7298831796105afc5855eeaad355</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New Section" section_id="4e8b7298831796105afc5855eeaad355" sys_domain="global" table="x_1488662_hr_ref_0_refund_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>468b7298831796105afc5855eeaad35f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">5ec9fed4831796105afc5855eeaad374</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>868b7298831796105afc5855eeaad360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>0e8b7298831796105afc5855eeaad360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>828b7298831796105afc5855eeaad361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>0a8b7298831796105afc5855eeaad361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>8e8b7298831796105afc5855eeaad361</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>068b7298831796105afc5855eeaad362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>8a8b7298831796105afc5855eeaad362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>028b7298831796105afc5855eeaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>868b7298831796105afc5855eeaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>0e8b7298831796105afc5855eeaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_expense</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>828b7298831796105afc5855eeaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_in_brl</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>0a8b7298831796105afc5855eeaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_in_usd</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>8e8b7298831796105afc5855eeaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>068b7298831796105afc5855eeaad365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>8a8b7298831796105afc5855eeaad365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reproval_reason</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>028b7298831796105afc5855eeaad366</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_id>868b7298831796105afc5855eeaad366</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1488662_hr_ref_0_refund_request" sys_domain="global" view="Default view">4e8b7298831796105afc5855eeaad355</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1488662_hr_ref_0_refund_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 22:20:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e8b7298831796105afc5855eeaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1488662_hr_ref_0_refund_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+            <sys_update_name>sys_ui_section_4e8b7298831796105afc5855eeaad355</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 22:20:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>438737686</payload_hash>
+        <record_name>Refund Request</record_name>
+        <reverted_from/>
+        <source>318d604583571210fae1caa6feaad32a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 19:56:17</sys_created_on>
+        <sys_id>f1adac4583571210fae1caa6feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948f96439b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 19:56:17</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>b1adac4596571210e448dff3c6a1b059</update_guid>
+        <update_guid_history>b1adac4596571210e448dff3c6a1b059:438737686</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 23:27:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2ca3cb6b024348e98cb0ec799213e029</sys_id>
+        <sys_metadata>4e8b7298831796105afc5855eeaad355</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1488662_hr_ref_0_refund_request</sys_name>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_parent display_value="Refund Request">95b96990839f56105afc5855eeaad39a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_scope_delete display_value="">1fe6e27ebeb54b3cb16e6f90973e5410</sys_scope_delete>
+        <sys_update_name>sys_ui_section_4e8b7298831796105afc5855eeaad355</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_4e8b7298831796105afc5855eeaad355">f1adac4583571210fae1caa6feaad359</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 23:27:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=83015000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>70912258839396105afc5855eeaad3f9</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Refund Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name>sys_hub_flow_70912258839396105afc5855eeaad3f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 00:20:51</sys_updated_on>
+        <sys_updated_on>2025-01-22 22:05:48</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -78,15 +78,15 @@
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
         <identifier>70912258839396105afc5855eeaad3f9</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 19:30:57</sys_created_on>
         <sys_id>bc4e1be4839bd6105afc5855eeaad3a9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 00:20:51</sys_updated_on>
+        <sys_updated_on>2025-01-22 20:26:22</sys_updated_on>
         <trigger display_value="">259fa69883d396105afc5855eeaad376</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=70912258839396105afc5855eeaad3f9^sys_idNOT INbc4e1be4839bd6105afc5855eeaad3a9"/>
@@ -976,11 +976,11 @@
         <sys_created_on>2025-01-20 20:44:52</sys_created_on>
         <sys_id>3595629c839396105afc5855eeaad3c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
         <sys_policy/>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_70912258839396105afc5855eeaad3f9_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 20:44:52</sys_updated_on>
         <url/>
@@ -999,11 +999,11 @@
         <sys_created_on>2025-01-20 20:44:52</sys_created_on>
         <sys_id>8295629c839396105afc5855eeaad3c8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
         <sys_policy/>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_70912258839396105afc5855eeaad3f9_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 20:44:52</sys_updated_on>
         <url/>
@@ -1943,11 +1943,11 @@
         <sys_created_on>2025-01-20 21:28:32</sys_created_on>
         <sys_id>219fa69883d396105afc5855eeaad354</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
         <sys_policy/>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1d9fa69883d396105afc5855eeaad333_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 21:28:32</sys_updated_on>
         <url/>
@@ -1966,11 +1966,11 @@
         <sys_created_on>2025-01-20 21:28:32</sys_created_on>
         <sys_id>a99fa69883d396105afc5855eeaad34d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
         <sys_policy/>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1d9fa69883d396105afc5855eeaad333_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 21:28:32</sys_updated_on>
         <url/>
@@ -1982,14 +1982,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>70912258839396105afc5855eeaad3f9</sys_id>
         <latest_snapshot>1d9fa69883d396105afc5855eeaad333</latest_snapshot>
-        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch4a-12-16-2024_01-07-2025_0947.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=70912258839396105afc5855eeaad3f9^sys_idNOT INe19fa69883d396105afc5855eeaad378"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e19fa69883d396105afc5855eeaad378","name":"plan","plan_signature":null}}</plan>
         <plan_id>70912258839396105afc5855eeaad3f9</plan_id>
-        <snapshot>03be44f0839fd6105afc5855eeaad3d7</snapshot>
+        <snapshot>97ea4541831b1210fae1caa6feaad3f3</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:28:32</sys_created_on>
         <sys_domain>global</sys_domain>
