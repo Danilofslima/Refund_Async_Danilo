@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <field>assignment_group</field>
+        <name>By Solver Group</name>
+        <number>MTRC0010004</number>
+        <order>100</order>
+        <script/>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 14:24:46</sys_created_on>
+        <sys_id>c7ea209d831b5210fae1caa6feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>By Solver Group</sys_name>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name>metric_definition_c7ea209d831b5210fae1caa6feaad3cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 14:24:46</sys_updated_on>
+        <table>x_1488662_hr_ref_0_refund_request</table>
+        <timeline>false</timeline>
+        <type>field_value_duration</type>
+    </metric_definition>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c7ea209d831b5210fae1caa6feaad3cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 14:24:46</sys_created_on>
+        <sys_id>1b5bec5d831b5210fae1caa6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 14:24:46</sys_updated_on>
+        <table>metric_definition</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
