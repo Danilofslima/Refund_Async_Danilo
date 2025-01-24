@@ -7,14 +7,14 @@
         <hint/>
         <name/>
         <order>100</order>
-        <roles>x_1488662_hr_ref_0.hrrefund_admin,x_1488662_hr_ref_0.hrrefund_manager,x_1488662_hr_ref_0.hrrefund_solver</roles>
+        <roles>x_1488662_hr_ref_0.hrrefund_admin,x_1488662_hr_ref_0.hrrefund_manager,x_1488662_hr_ref_0.hrrefund_solver,x_1488662_hr_ref_0.hrrefund_QA tester,x_1488662_hr_ref_0.hrrefund_user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 17:51:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0fed31d883df56105afc5855eeaad3db</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>HR Refund</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name>sys_app_application_0fed31d883df56105afc5855eeaad3db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 19:14:03</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:14:32</sys_updated_on>
         <title>HR Refund</title>
         <view_name/>
     </sys_app_application>

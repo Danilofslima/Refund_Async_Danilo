@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="95b96990839f56105afc5855eeaad39a" extends="task" label="Refund Request" max_length="40" name="x_1488662_hr_ref_0_refund_request" type="collection">
-        <element choice="1" label="Integration state" max_length="40" name="integration_state" type="choice">
+        <element choice="1" label="Integration state" max_length="40" name="integration_state" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Error during  API Integration" sequence="100" value="4"/>
                 <element inactive_on_update="false" label="Integration Sucessful" sequence="100" value="3"/>
@@ -8,11 +8,11 @@
             </choice>
         </element>
         <element dependent="opened_by" dependent_on_field="opened_by" label="Manager" max_length="100" name="manager" type="string" use_dependent_field="true"/>
-        <element label="Integration Error Messsage" max_length="40" name="integration_error_messsage" type="string"/>
+        <element label="Integration Error Messsage" max_length="300" name="integration_error_messsage" read_only="true" type="string"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
         <element label="Date of  Expense" max_length="40" name="date_of_expense" type="glide_date"/>
-        <element label="Amount in BRL" max_length="20" name="amount_in_brl" type="currency"/>
+        <element label="Amount in BRL -" max_length="20" name="amount_in_brl" type="currency"/>
         <element label="Category" max_length="32" name="category" reference="x_1488662_hr_ref_0_refund_categories" type="reference"/>
-        <element label="Amount in USD" max_length="20" name="amount_in_usd" type="currency"/>
+        <element label="Amount in USD  from BRL -" max_length="20" name="amount_in_usd" type="currency"/>
     </element>
 </database>
