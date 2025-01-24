@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">1569a76483dbd6105afc5855eeaad3c1</canvas>
+        <component display_value="Heatmap">d1f6c60ce95607ea1ef236430d5fdec9</component>
+        <component_props>{"showZero":false,"showDataLabels":false,"showLegend":true,"legendPosition":"bottom","colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Metric Definition","sourceType":"table","tableOrViewName":"metric_definition","filterQuery":"table=x_1488662_hr_ref_0_refund_request^name=By Solver group","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVtZXRyaWNfZGVmaW5pdGlvbjE3Mzc2NDI0MDYzNTM=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"2. TMA by Solver Group","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGVtZXRyaWNfZGVmaW5pdGlvbjE3Mzc2NDI0MDYzNTM=","id":"ZEdGaWJHVnRaWFJ5YVdOZlpHVm1hVzVwZEdsdmJqRTNNemMyTkRJME1EWXpOVE09MTczNzY0MjQwNzk2Mg==","aggregateFunction":"AVG","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"order"}],"groupBy":[{"categoryIndex":0,"groupBy":[{"dataSource":"dGFibGVtZXRyaWNfZGVmaW5pdGlvbjE3Mzc2NDI0MDYzNTM=","groupByField":"active","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false},{"groupBy":[{"dataSource":"dGFibGVtZXRyaWNfZGVmaW5pdGlvbjE3Mzc2NDI0MDYzNTM=","groupByField":"name","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false,"categoryIndex":1}],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"ew7n0nrv","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"headerTitle","value":"2. TMA by Solver Group","noDebounce":true,"propLabel":"Chart title"}</component_props>
+        <h>11</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 16:04:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>07428d59835b5210fae1caa6feaad3f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_update_name>par_dashboard_widget_07428d59835b5210fae1caa6feaad3f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 14:38:05</sys_updated_on>
+        <visualization/>
+        <w>24</w>
+        <widget_props/>
+        <x>24</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</application>
+        <file_path/>
+        <instance_id>81037f27dbb9f99038f117291396194d</instance_id>
+        <instance_name>dev188274</instance_name>
+        <name>par_dashboard_widget_07428d59835b5210fae1caa6feaad3f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">1569a76483dbd6105afc5855eeaad3c1</canvas><component display_value="Heatmap">d1f6c60ce95607ea1ef236430d5fdec9</component><component_props>{"showZero":false,"showDataLabels":false,"showLegend":true,"legendPosition":"bottom","colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Metric Definition","sourceType":"table","tableOrViewName":"metric_definition","filterQuery":"table=x_1488662_hr_ref_0_refund_request^name=By Solver group","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVtZXRyaWNfZGVmaW5pdGlvbjE3Mzc2NDI0MDYzNTM=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"2. TMA by Solver Group","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGVtZXRyaWNfZGVmaW5pdGlvbjE3Mzc2NDI0MDYzNTM=","id":"ZEdGaWJHVnRaWFJ5YVdOZlpHVm1hVzVwZEdsdmJqRTNNemMyTkRJME1EWXpOVE09MTczNzY0MjQwNzk2Mg==","aggregateFunction":"AVG","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"order"}],"groupBy":[{"categoryIndex":0,"groupBy":[{"dataSource":"dGFibGVtZXRyaWNfZGVmaW5pdGlvbjE3Mzc2NDI0MDYzNTM=","groupByField":"active","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false},{"groupBy":[{"dataSource":"dGFibGVtZXRyaWNfZGVmaW5pdGlvbjE3Mzc2NDI0MDYzNTM=","groupByField":"name","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false,"categoryIndex":1}],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"ew7n0nrv","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"headerTitle","value":"2. TMA by Solver Group","noDebounce":true,"propLabel":"Chart title"}</component_props><h>11</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-23 16:04:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>07428d59835b5210fae1caa6feaad3f6</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package><sys_policy/><sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope><sys_update_name>par_dashboard_widget_07428d59835b5210fae1caa6feaad3f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-24 14:38:05</sys_updated_on><visualization/><w>24</w><widget_props/><x>24</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1259970801</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>55bd648183571210fae1caa6feaad3d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 14:38:05</sys_created_on>
+        <sys_id>d008356183d3d210fae1caa6feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19498bfacaa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 14:38:05</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>1808356155d3d2102bd68565bba1c96a</update_guid>
+        <update_guid_history>1808356155d3d2102bd68565bba1c96a:-1259970801,1e2a09d1a5db5210cd4f40a926c3be09:-275687249,8f428d59a75b5210781a598ea0cc73f9:429660119</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6f0ba6a183d7d210fae1caa6feaad3a8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 18:21:09</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>048acd3fd11a4236bfef12c7a8c5e191</sys_id>
+        <sys_metadata>07428d59835b5210fae1caa6feaad3f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
+        <sys_scope_delete display_value="">1fe6e27ebeb54b3cb16e6f90973e5410</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_07428d59835b5210fae1caa6feaad3f6</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_07428d59835b5210fae1caa6feaad3f6">d008356183d3d210fae1caa6feaad36b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 18:21:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
