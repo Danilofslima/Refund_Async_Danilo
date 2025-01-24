@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>currency_integration_api_v4</internal_name>
-        <label_cache>[{"name":"{{action.amount_in_brl}}","label":"action➛Amount in BRL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].apikey}}","label":"step➛Script step➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].base_currency}}","label":"step➛Script step➛Base Currency","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ade6d339-21d2-446e-a9ba-3f80fa752ebf"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].currencies}}","label":"step➛Script step➛Currencies","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"231be5d6-c0ef-494f-9153-5a60cf6ec7fd"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].endpoint}}","label":"step➛Script step➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5dbb393d-eea9-4c9d-ac74-d90b8dd9069a"}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD47fde9ace953d61025bb44e1756185a7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"535efb78-57b5-4fbd-8164-039de7d12c49"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].brlrate}}","label":"step➛Script step➛brlrate","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"92532536-7dae-4e4a-b562-7c5e6a4e3d80"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].usdvalue}}","label":"step➛Script step➛usdvalue","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"76026efd-88a2-4ffc-894d-165b446e42f3"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.amount_in_brl}}","label":"action➛Amount in BRL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].apikey}}","label":"step➛Script step➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].base_currency}}","label":"step➛Script step➛Base Currency","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ade6d339-21d2-446e-a9ba-3f80fa752ebf"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].currencies}}","label":"step➛Script step➛Currencies","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"231be5d6-c0ef-494f-9153-5a60cf6ec7fd"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].endpoint}}","label":"step➛Script step➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5dbb393d-eea9-4c9d-ac74-d90b8dd9069a"}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD47fde9ace953d61025bb44e1756185a7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"535efb78-57b5-4fbd-8164-039de7d12c49"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].brlrate}}","label":"step➛Script step➛brlrate","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"92532536-7dae-4e4a-b562-7c5e6a4e3d80"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].usdvalue}}","label":"step➛Script step➛usdvalue","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"76026efd-88a2-4ffc-894d-165b446e42f3"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].__step_status__.message}}","label":"step➛REST step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].__step_status__.message}}","label":"step➛JSON Parser step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].__step_status__.code}}","label":"step➛Script step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>9f7d243c83131a105afc5855eeaad33b</master_snapshot>
         <master_snapshot_digest/>
         <name>Currency Integration API v4</name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4f9be07883131a105afc5855eeaad34d</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Currency Integration API v4</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Refund " source="x_1488662_hr_ref_0">91f7e110839f56105afc5855eeaad3e2</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_4f9be07883131a105afc5855eeaad34d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 23:16:35</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:02</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -166,7 +166,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Currency Integration API v4">4f9be07883131a105afc5855eeaad34d</action>
         <cid>56df5097-ff40-4e6c-b667-f987cf07e902</cid>
-        <error_handling_type>2</error_handling_type>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -180,10 +180,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:08:54</sys_created_on>
         <sys_id>179be07883131a105afc5855eeaad3be</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:25:12</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:15:17</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=179be07883131a105afc5855eeaad3be"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -272,7 +272,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>579be07883131a105afc5855eeaad3c1</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -280,7 +280,7 @@
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 23:16:31</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:36:59</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -394,7 +394,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Currency Integration API v4">4f9be07883131a105afc5855eeaad34d</action>
         <cid>bb1c5739-3486-4815-8e40-6973afa4a8f0</cid>
-        <error_handling_type>2</error_handling_type>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -408,10 +408,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:08:54</sys_created_on>
         <sys_id>539be07883131a105afc5855eeaad3a3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:25:11</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:15:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=539be07883131a105afc5855eeaad3a3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -643,7 +643,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Currency Integration API v4">4f9be07883131a105afc5855eeaad34d</action>
         <cid>1e60f9ee-f2dd-4a48-acb5-430805f8fbef</cid>
-        <error_handling_type>2</error_handling_type>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -656,10 +656,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:08:53</sys_created_on>
         <sys_id>879be07883131a105afc5855eeaad36d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:44:18</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:15:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=879be07883131a105afc5855eeaad36d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1133,7 +1133,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Currency Integration API v4">4f9be07883131a105afc5855eeaad34d</action>
         <cid>347a3408-e4d3-44ec-9200-4570826f89ac</cid>
-        <error_handling_type>2</error_handling_type>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -1147,10 +1147,10 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:10:53</sys_created_on>
         <sys_id>9c1c6c7883131a105afc5855eeaad3b0</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:25:12</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:15:17</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9c1c6c7883131a105afc5855eeaad3b0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1929,14 +1929,14 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:08:54</sys_created_on>
         <sys_id>a39be07883131a105afc5855eeaad3e5</sys_id>
-        <sys_mod_count>69</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 23:16:32</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:36:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1963,7 +1963,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d79be07883131a105afc5855eeaad3cd</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1971,7 +1971,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 23:16:32</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:36:59</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -2075,31 +2075,31 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e79be07883131a105afc5855eeaad3ff^sys_idNOT INaf9be07883131a105afc5855eeaad3ff,c8f712d983539210fae1caa6feaad364"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 21/01/2025 22:08:55">e79be07883131a105afc5855eeaad3ff</action_status_metadata_id>
-        <condition>{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}=404</condition>
+        <condition>{{step[347a3408-e4d3-44ec-9200-4570826f89ac].__step_status__.code}}!=0</condition>
         <dont_treat_as_error>true</dont_treat_as_error>
-        <label>API Step Failure</label>
+        <label>Parser step failure</label>
         <order>1</order>
-        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration error: check the API endpoint "}}}}</status>
+        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"Integration error: check the API endpoint  {{step[56df5097-ff40-4e6c-b667-f987cf07e902].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:08:55</sys_created_on>
         <sys_id>af9be07883131a105afc5855eeaad3ff</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:45:43</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:30:49</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 21/01/2025 22:08:55">e79be07883131a105afc5855eeaad3ff</action_status_metadata_id>
-        <condition>{{step[56df5097-ff40-4e6c-b667-f987cf07e902].__step_status__.code}}=1</condition>
+        <condition>{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].__step_status__.code}}!=0</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
-        <label>Parser Step Failure</label>
+        <label>Rest Step API Integration</label>
         <order>2</order>
-        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"505"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration Error: No route found"}}}}</status>
+        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"500"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-23 22:19:08</sys_created_on>
         <sys_id>c8f712d983539210fae1caa6feaad364</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:23:33</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:33:51</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_4f9be07883131a105afc5855eeaad34d^sys_idNOT IN439be07883131a105afc5855eeaad357"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -2224,17 +2224,17 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Currency Integration API v4">4f9be07883131a105afc5855eeaad34d</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"337d643c83131a105afc5855eeaad348","name":"plan","plan_signature":null}}</plan>
-        <snapshot>2115ea5d83939210fae1caa6feaad3b4</snapshot>
+        <snapshot>08877a5583179210fae1caa6feaad3fe</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>337d643c83131a105afc5855eeaad348</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 23:16:36</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:04</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2251,7 +2251,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <description>Returns the latest exchange rates. The default base currency is USD.</description>
         <flow_priority/>
         <internal_name>currency_integration_api_v4</internal_name>
-        <label_cache>[{"name":"{{action.amount_in_brl}}","label":"action➛Amount in BRL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].apikey}}","label":"step➛Script step➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].base_currency}}","label":"step➛Script step➛Base Currency","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ade6d339-21d2-446e-a9ba-3f80fa752ebf"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].currencies}}","label":"step➛Script step➛Currencies","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"231be5d6-c0ef-494f-9153-5a60cf6ec7fd"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].endpoint}}","label":"step➛Script step➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5dbb393d-eea9-4c9d-ac74-d90b8dd9069a"}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD47fde9ace953d61025bb44e1756185a7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"535efb78-57b5-4fbd-8164-039de7d12c49"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].brlrate}}","label":"step➛Script step➛brlrate","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"92532536-7dae-4e4a-b562-7c5e6a4e3d80"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].usdvalue}}","label":"step➛Script step➛usdvalue","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"76026efd-88a2-4ffc-894d-165b446e42f3"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.amount_in_brl}}","label":"action➛Amount in BRL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].apikey}}","label":"step➛Script step➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].base_currency}}","label":"step➛Script step➛Base Currency","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ade6d339-21d2-446e-a9ba-3f80fa752ebf"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].currencies}}","label":"step➛Script step➛Currencies","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"231be5d6-c0ef-494f-9153-5a60cf6ec7fd"}},{"name":"{{step[1e60f9ee-f2dd-4a48-acb5-430805f8fbef].endpoint}}","label":"step➛Script step➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5dbb393d-eea9-4c9d-ac74-d90b8dd9069a"}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD47fde9ace953d61025bb44e1756185a7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"535efb78-57b5-4fbd-8164-039de7d12c49"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].brlrate}}","label":"step➛Script step➛brlrate","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"92532536-7dae-4e4a-b562-7c5e6a4e3d80"}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].usdvalue}}","label":"step➛Script step➛usdvalue","type":"step","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"float","uiUniqueId":"76026efd-88a2-4ffc-894d-165b446e42f3"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].__step_status__.message}}","label":"step➛REST step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[56df5097-ff40-4e6c-b667-f987cf07e902].__step_status__.message}}","label":"step➛JSON Parser step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[347a3408-e4d3-44ec-9200-4570826f89ac].__step_status__.code}}","label":"step➛Script step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Currency Integration API v4</name>
         <natlang/>
@@ -2264,7 +2264,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9f7d243c83131a105afc5855eeaad33b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2272,7 +2272,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:19:17</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:01</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2314,10 +2314,10 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:07</sys_created_on>
         <sys_id>6f7d243c83131a105afc5855eeaad3da</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:19:18</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2025-01-24 00:37:02</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="Action Status">2b7d243c83131a105afc5855eeaad3bf</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2387,7 +2387,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Currency Integration API v4">9f7d243c83131a105afc5855eeaad33b</action>
         <cid>1e60f9ee-f2dd-4a48-acb5-430805f8fbef</cid>
-        <error_handling_type>2</error_handling_type>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -2400,10 +2400,10 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:05</sys_created_on>
         <sys_id>937d243c83131a105afc5855eeaad349</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:44:28</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:01</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=937d243c83131a105afc5855eeaad349"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2877,7 +2877,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Currency Integration API v4">9f7d243c83131a105afc5855eeaad33b</action>
         <cid>bb1c5739-3486-4815-8e40-6973afa4a8f0</cid>
-        <error_handling_type>2</error_handling_type>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -2891,10 +2891,10 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:06</sys_created_on>
         <sys_id>937d243c83131a105afc5855eeaad370</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:25:20</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:01</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=937d243c83131a105afc5855eeaad370"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3126,7 +3126,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Currency Integration API v4">9f7d243c83131a105afc5855eeaad33b</action>
         <cid>347a3408-e4d3-44ec-9200-4570826f89ac</cid>
-        <error_handling_type>2</error_handling_type>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -3140,10 +3140,10 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:06</sys_created_on>
         <sys_id>a37d243c83131a105afc5855eeaad399</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:25:20</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:02</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a37d243c83131a105afc5855eeaad399"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3600,7 +3600,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Currency Integration API v4">9f7d243c83131a105afc5855eeaad33b</action>
         <cid>56df5097-ff40-4e6c-b667-f987cf07e902</cid>
-        <error_handling_type>2</error_handling_type>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -3614,10 +3614,10 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:06</sys_created_on>
         <sys_id>af7d243c83131a105afc5855eeaad38a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 22:25:20</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:02</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=af7d243c83131a105afc5855eeaad38a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3706,7 +3706,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af7d243c83131a105afc5855eeaad38d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3714,7 +3714,7 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 23:16:34</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:02</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -4150,14 +4150,14 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 01:17:07</sys_created_on>
         <sys_id>2f7d243c83131a105afc5855eeaad3c3</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HR Refund ">91f7e110839f56105afc5855eeaad3e2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 23:16:35</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4270,34 +4270,34 @@ outputs.endpoint = gs.getProperty("x_1488662_hr_ref_0.refund_endpoint","");&#13;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-22 01:17:07</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2b7d243c83131a105afc5855eeaad3dc^sys_idNOT IN2115ea5d83939210fae1caa6feaad3b3,a515ea5d83939210fae1caa6feaad3b3"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2b7d243c83131a105afc5855eeaad3dc^sys_idNOT IN0c877a5583179210fae1caa6feaad3fd,8c877a5583179210fae1caa6feaad3fd"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 21/01/2025 22:17:07">2b7d243c83131a105afc5855eeaad3dc</action_status_metadata_id>
-        <condition>{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].status_code}}=404</condition>
+        <condition>{{step[347a3408-e4d3-44ec-9200-4570826f89ac].__step_status__.code}}!=0</condition>
         <dont_treat_as_error>true</dont_treat_as_error>
-        <label>API Step Failure</label>
+        <label>Parser step failure</label>
         <order>1</order>
-        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration error: check the API endpoint "}}}}</status>
+        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"Integration error: check the API endpoint  {{step[56df5097-ff40-4e6c-b667-f987cf07e902].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-23 23:16:35</sys_created_on>
-        <sys_id>2115ea5d83939210fae1caa6feaad3b3</sys_id>
+        <sys_created_on>2025-01-24 00:37:02</sys_created_on>
+        <sys_id>0c877a5583179210fae1caa6feaad3fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 23:16:35</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:02</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 21/01/2025 22:17:07">2b7d243c83131a105afc5855eeaad3dc</action_status_metadata_id>
-        <condition>{{step[56df5097-ff40-4e6c-b667-f987cf07e902].__step_status__.code}}=1</condition>
+        <condition>{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].__step_status__.code}}!=0</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
-        <label>Parser Step Failure</label>
+        <label>Rest Step API Integration</label>
         <order>2</order>
-        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"505"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration Error: No route found"}}}}</status>
+        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[bb1c5739-3486-4815-8e40-6973afa4a8f0].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"500"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-23 23:16:35</sys_created_on>
-        <sys_id>a515ea5d83939210fae1caa6feaad3b3</sys_id>
+        <sys_created_on>2025-01-24 00:37:02</sys_created_on>
+        <sys_id>8c877a5583179210fae1caa6feaad3fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 23:16:35</sys_updated_on>
+        <sys_updated_on>2025-01-24 00:37:02</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9f7d243c83131a105afc5855eeaad33b^sys_idNOT IN977d243c83131a105afc5855eeaad342"/>
     <sys_documentation action="INSERT_OR_UPDATE">
